@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Fredoka', 'Quicksand', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --neon-blue: #00f0ff;
+    --neon-pink: #ff2a85;
+    --neon-yellow: #ffd600;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0e1015;
+    color: #f3f4f6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+/* Wood slats architectural background texture inspired by Pet House Club sign wall */
+.bg-wood-slats {
+  background-color: #0f1117;
+  background-image: 
+    repeating-linear-gradient(
+      90deg,
+      #13161f 0px,
+      #13161f 28px,
+      #090a0e 28px,
+      #090a0e 34px
+    );
+}
+
+.bg-wood-slats-subtle {
+  background-color: #12141c;
+  background-image: 
+    repeating-linear-gradient(
+      90deg,
+      rgba(25, 29, 39, 0.4) 0px,
+      rgba(25, 29, 39, 0.4) 24px,
+      rgba(10, 12, 17, 0.6) 24px,
+      rgba(10, 12, 17, 0.6) 28px
+    );
+}
+
+/* Neon Glow utilities */
+.glow-pink {
+  box-shadow: 0 0 25px -4px rgba(255, 42, 133, 0.5), 0 0 10px -2px rgba(255, 42, 133, 0.7);
+}
+
+.glow-blue {
+  box-shadow: 0 0 25px -4px rgba(0, 240, 255, 0.45), 0 0 10px -2px rgba(0, 240, 255, 0.65);
+}
+
+.glow-yellow {
+  box-shadow: 0 0 25px -4px rgba(255, 214, 0, 0.45), 0 0 10px -2px rgba(255, 214, 0, 0.7);
+}
+
+.text-glow-yellow {
+  text-shadow: 0 0 12px rgba(255, 214, 0, 0.8), 0 0 24px rgba(255, 214, 0, 0.4);
+}
+
+.text-glow-pink {
+  text-shadow: 0 0 12px rgba(255, 42, 133, 0.8), 0 0 24px rgba(255, 42, 133, 0.4);
+}
+
+.text-glow-blue {
+  text-shadow: 0 0 12px rgba(0, 240, 255, 0.8), 0 0 24px rgba(0, 240, 255, 0.4);
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0f14;
+}
+::-webkit-scrollbar-thumb {
+  background: #232733;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff2a85;
+}

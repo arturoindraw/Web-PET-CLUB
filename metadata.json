@@ -1,0 +1,6 @@
+{
+  "name": "Pet House Club Montería",
+  "description": "El club más exclusivo para tu mascota en Montería. Guardería, peluquería canina y felina, spa, alimentos premium, boutique y reservas online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
