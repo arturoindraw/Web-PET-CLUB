@@ -28,7 +28,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onExploreServices }) 
             <div className="relative w-56 h-56 sm:w-68 sm:h-68 md:w-80 md:h-80 rounded-full p-2 bg-[#171922] border-4 border-[#ff2a85] shadow-[0_0_35px_rgba(255,42,133,0.65),inset_0_0_20px_rgba(255,42,133,0.3)]">
               <div className="w-full h-full rounded-full overflow-hidden border-2 border-[#ffd600]/60 relative">
                 <img
-                  src="/assets/aistudio/PET_HOUSE_logo_aa6a9ad4.jpg"
+                  src="./logo.jpg"
                   alt="Pet House Club Logo Neon Sign"
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
