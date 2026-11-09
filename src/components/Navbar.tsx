@@ -35,7 +35,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, onOpenCRM, crmCou
           >
             <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-[#ff2a85] p-0.5 shadow-[0_0_15px_rgba(255,42,133,0.4)] group-hover:shadow-[0_0_20px_rgba(0,240,255,0.6)] transition-all">
               <img
-                src={`${import.meta.env.BASE_URL}logo.jpg`}
+                src="./logo.jpg"
                 alt="Pet House Club Logo"
                 className="w-full h-full object-cover rounded-full"
               />
